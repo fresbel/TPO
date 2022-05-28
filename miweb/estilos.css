@@ -1,0 +1,106 @@
+#estilos
+body {
+  text-align: center;
+  background-color: rgb(221, 140, 210);
+  font-family: 'Raleway', sans-serif;}
+header {
+    font-family: 'Raleway', sans-serif;
+    font-size: 48px;
+    text-align:center;
+      background-color: pink;
+      color: blueviolet;  
+      width: 100%; 
+      image-rendering:auto;
+    }
+ footer{
+  background-color:black; 
+   color:white;
+   width:auto;
+   text-align:center;
+   position:relative;
+    left:0;
+    padding:10px;
+    height:30px;
+      }
+    
+nav{
+  background-color: lightblue;
+  font-family: 'Raleway', sans-serif;
+  font-size: 25px;
+  height: 80px;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  text-align: center;
+  gap: 50px;
+  border: 2px; 
+  display: flex
+} 
+
+h1{
+  font-size: 200%;
+  text-align: justify;
+  font-family: 'Raleway', sans-serif;
+}
+
+.grid-layout{
+  display: grid;
+  grid-template-columns:50% 50%;
+  gap: 3px;
+  
+  justify-content: space-evenly;
+
+}
+@media only screen and (min-width:320px) and (max-width:479px) {
+  .grid-layout{
+    grid-template-columns: 50% 50%;
+    gap: 2vw;
+  }
+.caja{
+    padding: 50px; border: 1px;
+  }}
+   
+.formulario{
+  width:  500px;
+  max-width: 100%;
+  margin: auto;
+  margin-top: 30px;
+  padding: 20px;
+  box-shadow: 0 0 20px 1px rgba(0,0, 0,0.3);
+  position: relative;
+
+}
+.formulario__titulo{
+  text-align: center;
+  margin-top: 0;
+  color: blue;
+}
+.formulario__input, .formulario__label, .formulario__submit{
+  display: block;
+  width: 100%;
+  font-size: 1.3em;
+  ;
+
+}
+.formulario__input{
+  padding: 20px;
+  border: 1px solid; 
+  margin-bottom: 40px;
+}
+
+.formulario__label{
+  padding-left: 15px;
+  position: absolute;
+  margin-top: auto;}
+.formulario__submit{
+color: rgb(20, 20, 19);
+padding: 10px 20px;
+cursor: pointer;
+border: none;}
+.warnings{
+  width: 200px;
+  text-align: center;
+  margin: auto;
+  padding-top: 20px;}
+a:link {
+  color: rgb(34, 10, 99);
+}
